@@ -17,10 +17,10 @@ const ToDoList = ({ todos, toggleTodo, deleteTodo }) => (
 
 );
 
-ToDoList.PropTypes={
+ToDoList.propTypes={
     todos:PropTypes.arrayOf(PropTypes.object).isRequired,
-    toggleToDo:PropTypes.func.isRequired,
-    deleteToDo:PropTypes.func.isRequired,
+    toggleTodo:PropTypes.func.isRequired,
+    deleteTodo:PropTypes.func.isRequired,
 }
 
 export default ToDoList;

@@ -18,7 +18,7 @@ const ToDoItem = ({ todo, toggleToDo, deleteToDo }) => (
     </div>
 );
 
-ToDoItem.PropTypes = {
+ToDoItem.propTypes = {
     todo:PropTypes.object.isRequired,
     toggleToDo:PropTypes.func.isRequired,
     deleteToDo:PropTypes.func.isRequired,
